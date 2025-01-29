@@ -9,7 +9,7 @@ authenticator = Authenticator(
     allowed_users=allowed_users,
     token_key=st.secrets["TOKEN_KEY"],
     client_secret=st.secrets["CLIENT_SECRET"],  # Changed from secret_path
-    redirect_uri="https://google-oauth.streamlit.app"  # Updated for production
+    redirect_uri="https://g-signin.streamlit.app/"  # Updated for production
 )
 
 # Sidebar auth components
